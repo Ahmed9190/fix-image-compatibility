@@ -1,0 +1,31 @@
+# Image files that are test files
+*_fixed.jpg
+*_fixed.png
+*_fixed.gif
+*_fixed.jpeg
+
+# Other potentially large image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# But don't ignore images in documentation
+!docs/
+!*.md
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
